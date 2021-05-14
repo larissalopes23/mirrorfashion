@@ -1,0 +1,285 @@
+
+html, body {height:100%;}
+
+body {
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: relative;
+     
+}
+ 
+main {
+     position: relative;
+}
+
+footer {
+    position: relative;
+    background-color: #333;
+    background-image: url('../img/fundo-rodape.png');
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+
+p {
+    font-style: normal;
+    text-align:justify;
+    padding: 0 40px;
+    margin-top: 10px;
+    text-indent: 1em;
+    vertical-align: middle;
+}
+
+h1 {
+    background-image: url('../img/sobre-background.jpg');
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    margin-top: 10px;
+
+}
+
+ul {
+    margin-top: 10px;    
+    margin-left: 10px;
+    list-style-type: square;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+    margin: 0;
+}
+
+figure {
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited a:active {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.container {
+    width: 940px;
+    margin: 0px auto;
+}
+
+.logotipo {
+    background-image: none;
+    position:relative;
+    top:0px;
+    padding: 10px;
+}
+
+.menu-opcoes {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    
+    position: relative;
+    font-size: 14px;
+    
+}
+
+.menu-opcoes a {
+    color: #036;
+}
+
+.menu-opcoes ul li {
+    padding-top: 20px;
+    margin-left: 10px;
+    display:inline;
+    text-align: right;
+    
+}
+
+.sacola {
+    background-image: url('../img/sacola.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 34px;
+    text-align: right;
+    width: 140px;
+    padding-top: 12px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    padding-bottom: 12px;
+}
+
+
+
+#rodape {
+    color: #fff;
+    background-color: #333;
+    padding: 30px 0 30px 0;
+    clear: both;
+}
+
+#rodape img {
+    width: 94px;
+    vertical-align: middle;
+
+}
+
+#redes-sociais {
+    position: relative;
+    float: right;
+    bottom: 10px;
+
+}
+#redes-sociais img {
+    right: 30px;
+    width: 25px;
+    vertical-align: middle;
+}
+
+#redes-sociais li {
+    display: inline;
+    padding: 15px;
+    margin: 0;
+}
+
+#principal {
+    height: 550px;
+    
+}
+
+#destaques {
+    height: 150px;
+    
+}
+
+#busca {
+    padding-top: 8px;
+    background-color: #dcdcdc;
+    float: left;
+    width: 220px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 25px 5px 25px 5px;
+}
+
+#menu-departamentos {
+    clear: left;
+    text-transform: uppercase;
+    padding-top: 8px;
+    background-color: #dcdcdc;
+    float: left;
+    width: 220px;
+    margin-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+#menu-departamentos ul{
+    list-style: none;
+}
+
+#menu-departamentos li {
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(185, 185, 185);
+    margin-left: 10px;
+    margin-top: 0;
+    width: 85%;
+}
+
+#menu-departamentos h2 {
+    border-bottom: 2px solid #333;
+    margin-left: 10px;
+    margin-top: 0;
+    width: 85%;
+}
+
+#banner-destaque {
+    padding: 20px 0 0 20px;
+
+}
+
+#busca {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#busca input[type="search"] {
+   width: 170px; 
+   border-radius:6px;
+}
+
+#busca button {
+    background-image: url('../img/busca.png');
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 20px;
+    height: 22px; 
+ }
+
+ .painel {
+     padding: 10px;
+     width: 445px;
+     border-radius: 25px 5px 25px 5px;
+     margin-bottom:45px;
+ }
+
+ .painel li {
+     display: inline-block;
+ }
+
+ .novidades {
+    float: left;
+    background-color: rgb(201, 192, 238);
+ }
+
+ .mais-vendidos {
+     float: right;
+     background-color: bisque;
+ }
+
+ .painel figure {
+    width:95px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+ }
+ .painel img {
+    width:95px;
+ }
+ 
+ 
+
+
+
+
+

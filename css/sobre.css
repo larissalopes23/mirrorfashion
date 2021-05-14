@@ -1,0 +1,25 @@
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 1em 0 1em 1em;
+}
+
+#cabecalho {
+    color: #fff;
+    text-align: left;
+}
+
+#historia, #diferenciais {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+#rodape {
+    margin-top: 50px;
+
+}
